@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="8lvDDbcv11EHQsyAbSkC">
+    <mxGraphModel dx="3433" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z43kE1INis4nYyAe_Sj5-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="Paciente" vertex="1">
+          <mxGeometry height="174" width="200" x="313" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-2" parent="z43kE1INis4nYyAe_Sj5-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- cedula : String&lt;br&gt;- nombre : String&lt;br&gt;- edad : int&lt;br&gt;- motivoEmergencia : String&lt;br&gt;- prioridad : int&lt;br&gt;- estado : String" vertex="1">
+          <mxGeometry height="114" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-3" parent="z43kE1INis4nYyAe_Sj5-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-4" parent="z43kE1INis4nYyAe_Sj5-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="200" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="&lt;font&gt;MenuPrincipal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="250" x="289" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-10" parent="z43kE1INis4nYyAe_Sj5-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- sistema : SistemaTriaje&lt;div&gt;- scanner : Scanner&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-11" parent="z43kE1INis4nYyAe_Sj5-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-12" parent="z43kE1INis4nYyAe_Sj5-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ MenuPrincipal(sistema : SistemaTriaje)&lt;div&gt;+ mostrarMenu() : void&lt;br&gt;+ ejecutar() : void&lt;br&gt;+ leerOpcion() : int&lt;br&gt;+ salir() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="250" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="MenuPila" vertex="1">
+          <mxGeometry height="170" width="240" x="294" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-14" parent="z43kE1INis4nYyAe_Sj5-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- sistema : SistemaTriaje" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-15" parent="z43kE1INis4nYyAe_Sj5-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-16" parent="z43kE1INis4nYyAe_Sj5-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ MenuPila(sistema : SistemaTriaje)&lt;br&gt;+ mostrarMenu() : void&lt;br&gt;+ ejecutar(scanner : Scanner) : void&lt;br&gt;+ mostrarAscensor() : void&lt;br&gt;+ buscarPaciente() : void&lt;br&gt;+ trasladarPacienteALista() : void" vertex="1">
+          <mxGeometry height="110" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="MenuCola" vertex="1">
+          <mxGeometry height="190" width="250" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-18" parent="z43kE1INis4nYyAe_Sj5-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- sistema : SistemaTriaje" vertex="1">
+          <mxGeometry height="26" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-19" parent="z43kE1INis4nYyAe_Sj5-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-20" parent="z43kE1INis4nYyAe_Sj5-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ MenuCola(sistema : SistemaTriaje)&lt;br&gt;+ mostrarMenu() : void&lt;br&gt;+ ejecutar(scanner : Scanner) : void&lt;br&gt;+ registrarPaciente() : void&lt;br&gt;+ mostrarCola() : void&lt;br&gt;+ buscarPaciente() : void&lt;br&gt;+ trasladarPacienteAAscensor() : void" vertex="1">
+          <mxGeometry height="130" width="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="MenuLista" vertex="1">
+          <mxGeometry height="200" width="230" x="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-22" parent="z43kE1INis4nYyAe_Sj5-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- sistema : SistemaTriaje" vertex="1">
+          <mxGeometry height="26" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-23" parent="z43kE1INis4nYyAe_Sj5-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-24" parent="z43kE1INis4nYyAe_Sj5-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="&lt;div&gt;+ MenuLista(sistema : SistemaTriaje)&lt;/div&gt;&lt;div&gt;+ mostrarMenu() : void&lt;/div&gt;&lt;div&gt;+ ejecutar(scanner : Scanner) : void&lt;/div&gt;&lt;div&gt;+ mostrarLista() : void&lt;/div&gt;&lt;div&gt;+ buscarPaciente() : void&lt;/div&gt;&lt;div&gt;+ modificarPaciente() : void&lt;/div&gt;&lt;div&gt;+ sustituirPaciente() : void&lt;/div&gt;&lt;div&gt;+ reemplazarPaciente() : void&lt;/div&gt;&lt;div&gt;+ atenderPaciente() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-25" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="SistemaTriaje" vertex="1">
+          <mxGeometry height="770" width="300" x="264" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-26" parent="z43kE1INis4nYyAe_Sj5-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- colaPacientes : ColaPacientes&lt;br&gt;- pilaAscensor : PilaAscensor&lt;br&gt;- listaAtencion : ListaAtencion" vertex="1">
+          <mxGeometry height="64" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-27" parent="z43kE1INis4nYyAe_Sj5-25" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-28" parent="z43kE1INis4nYyAe_Sj5-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ SistemaTriaje()&lt;div&gt;&lt;div data-end=&quot;4985&quot; data-start=&quot;4172&quot; class=&quot;overflow-visible! px-0!&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;div class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;+ registrarPaciente(&lt;br&gt;    cedula : String,&lt;br&gt;    nombre : String,&lt;br&gt;    edad : int,&lt;br&gt;    motivoEmergencia : String,&lt;br&gt;    prioridad : int&lt;br&gt;) : void&lt;br&gt;+ mostrarCola() : void&lt;br&gt;+ buscarPacienteEnCola(&lt;br&gt;    cedula : String&lt;br&gt;) : Paciente&lt;br&gt;+ trasladarPacienteAAscensor() : void&lt;br&gt;+ mostrarAscensor() : void&lt;br&gt;+ buscarPacienteEnAscensor(&lt;br&gt;    cedula : String&lt;br&gt;) : Paciente&lt;br&gt;+ trasladarPacienteALista() : void&lt;br&gt;+ mostrarLista() : void&lt;br&gt;+ buscarPacienteEnLista(&lt;br&gt;    cedula : String&lt;br&gt;) : Paciente&lt;br&gt;+ modificarPaciente(&lt;br&gt;    cedula : String&lt;br&gt;) : void&lt;br&gt;+ eliminarPaciente(&lt;br&gt;    cedula : String&lt;br&gt;) : void&lt;br&gt;+ sustituirPaciente(&lt;br&gt;    cedula : String,&lt;br&gt;    nuevoPaciente : Paciente&lt;br&gt;) : void&lt;br&gt;+ reemplazarPaciente(&lt;br&gt;    cedula : String,&lt;br&gt;    nuevoPaciente : Paciente&lt;br&gt;) : void&lt;br&gt;+ atenderPaciente(&lt;br&gt;    cedula : String&lt;br&gt;) : void&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="672" width="300" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-29" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="ColaPacientes" vertex="1">
+          <mxGeometry height="104" width="200" x="13" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-30" parent="z43kE1INis4nYyAe_Sj5-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- frente : NodoPaciente&lt;br&gt;- fin : NodoPaciente" vertex="1">
+          <mxGeometry height="44" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-31" parent="z43kE1INis4nYyAe_Sj5-29" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-32" parent="z43kE1INis4nYyAe_Sj5-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-33" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="PilaAscensor" vertex="1">
+          <mxGeometry height="86" width="200" x="313" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-34" parent="z43kE1INis4nYyAe_Sj5-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- cima : NodoPaciente" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-35" parent="z43kE1INis4nYyAe_Sj5-33" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-36" parent="z43kE1INis4nYyAe_Sj5-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-37" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="ListaAtencion" vertex="1">
+          <mxGeometry height="86" width="200" x="613" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-38" parent="z43kE1INis4nYyAe_Sj5-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- inicio : NodoPaciente" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-39" parent="z43kE1INis4nYyAe_Sj5-37" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-40" parent="z43kE1INis4nYyAe_Sj5-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-41" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="NodoPaciente" vertex="1">
+          <mxGeometry height="104" width="200" x="313" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-42" parent="z43kE1INis4nYyAe_Sj5-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="- paciente : Paciente&lt;br&gt;- siguiente : NodoPaciente" vertex="1">
+          <mxGeometry height="44" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-43" parent="z43kE1INis4nYyAe_Sj5-41" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Times New Roman;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z43kE1INis4nYyAe_Sj5-44" parent="z43kE1INis4nYyAe_Sj5-41" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="200" y="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
